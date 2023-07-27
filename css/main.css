@@ -723,6 +723,7 @@
     background: linear-gradient(91.81deg, #0150ce 2.8%, #092376 99.99%);
     -webkit-backdrop-filter: blur(1.74778px);
     backdrop-filter: blur(1.74778px);
+    transform: translate3d(0, 0, 0);
     border-radius: 10px 10px 0 0;
     font-style: normal;
     font-weight: 700;
@@ -748,6 +749,7 @@
     background: linear-gradient(91.81deg, #0150ce 2.8%, #092376 99.99%);
     -webkit-backdrop-filter: blur(1.74778px);
     backdrop-filter: blur(1.74778px);
+    transform: translate3d(0, 0, 0);
     font-style: normal;
     font-weight: 700;
     font-size: 22.8367px;
@@ -793,12 +795,14 @@
     background: linear-gradient(90.33deg, #013587 0.15%, #003e9e 100%);
     -webkit-backdrop-filter: blur(1.74778px);
     backdrop-filter: blur(1.74778px);
+    transform: translate3d(0, 0, 0);
 }
 
 .terms-board-main div:nth-child(even) {
     background: #06317b;
     -webkit-backdrop-filter: blur(1.74778px);
     backdrop-filter: blur(1.74778px);
+    transform: translate3d(0, 0, 0);
 }
 
 .terms-board-footer span,
@@ -1633,9 +1637,9 @@
     height: 65%;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    transform: translate(-50%, -50%) translate3d(0, 0, 0);
     z-index: -1;
 }
 
