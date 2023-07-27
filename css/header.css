@@ -56,6 +56,7 @@
     max-width: 211px;
     width: 100%;
     height: 100%;
+    z-index: 1000;
 }
 
 .header-logo img {
@@ -177,10 +178,10 @@
 
 /* Languages styles */
 
-.burger-langs .current-language span {
+/* .burger-langs .current-language span {
     font-size: 20px;
     font-weight: 300;
-}
+} */
 
 .header-langs {
     font-weight: 500;
@@ -265,11 +266,15 @@
     line-height: 23px;
     text-align: center;
     z-index: 5;
+    transition: all 0.3s;
+
+    transform: translateY(20px);
 }
 
 .languages-list:hover .sub-languages-list {
     opacity: 1;
     visibility: visible;
+    transform: translateY(0px);
 }
 
 .sub-languages-list a {
@@ -413,4 +418,5 @@
     height: 100%;
     max-width: 1000px;
     margin-bottom: 60px;
+    z-index: -1;
 }

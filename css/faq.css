@@ -241,11 +241,12 @@
 .coins2,
 .coins3 {
     position: absolute;
+    z-index: -1;
 }
 
 .coins1 {
-    left: -150px;
-    bottom: -150px;
+    left: -200px;
+    bottom: -50px;
 }
 .coins2 {
     right: -250px;
@@ -383,7 +384,7 @@
     width: 100%;
     padding: 0 !important;
     margin: 0 !important;
-    margin-top: -15% !important;
+    /* margin-top: -15% !important; */
     height: initial !important;
 }
 
@@ -396,6 +397,6 @@
 .conditions-footer {
     height: initial;
     padding: 0 !important;
-    margin: 0 !important;
+    /* margin: 0 !important; */
     height: initial !important;
 }

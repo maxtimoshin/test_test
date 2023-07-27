@@ -325,9 +325,9 @@
     left: 50%;
     width: 80%;
     height: 50%;
-    -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background: rgb(0, 102, 255);
     background: radial-gradient(circle, rgba(0, 102, 255, 1) 0%, rgba(0, 212, 255, 0) 100%);
     -webkit-filter: blur(60px);
@@ -370,7 +370,7 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 0 30px 0 100px;
+    padding: 0 30px 0 120px;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
@@ -1633,7 +1633,7 @@
     background: linear-gradient(195.13deg, rgba(180, 180, 180, 0.4) 10.64%, rgba(180, 180, 180, 0.18) 103.44%);
     -webkit-backdrop-filter: blur(7.8439px);
     backdrop-filter: blur(7.8439px);
-    border-radius: 3.92195px;
+    border-radius: 10px;
     height: 65%;
     left: 50%;
     top: 50%;

@@ -316,12 +316,15 @@
         right: 60px !important;
         bottom: 100px !important;
     }
-    /* .header-langs {
+    .header-langs {
         display: none;
-    } */
-    .burger-langs {
-        display: block;
     }
+    .header-langs-burger {
+        display: flex;
+    }
+    /* .burger-langs {
+        display: block;
+    } */
     .header-menu {
         display: none;
     }
@@ -852,6 +855,9 @@
         height: 90px;
         margin: 40px 0 0 0;
         padding: 0 16px;
+    }
+    .no-margin-footer {
+        margin: 0;
     }
     .faq-character {
         -webkit-transform: translateY(-50%) scale(0.6) !important;

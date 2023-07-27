@@ -6,117 +6,207 @@ export default {
   contacts: "contacts",
   registration: "registration",
   log_in: "login",
-  cond_main_title: "Terms and Conditions",
-  cond_main_text: `These terms ("Agreement") govern your participation as an affiliate ("Affiliate") of SpinBet Partners ("Program"). The Affiliate agrees to comply with this Agreement and its attached schedules and agrees to be bound by them, as well as any amendments made by the Program.<br/><br/>
-  SpinBet Partners Affiliate Program Rules and Conditions`,
-  cond_title1: `Operating Principles, Data Security, and Account Protection:`,
-  cond_title2: `Traffic, Sources, and Limitations:`,
-  cond_title3: `Commissions, Negative Balance Carryover, and Sub-affiliate:`,
-  cond_title4: `The use of promotional materials`,
-  cond_title5: `Fraud and Violation of Cooperation Rules`,
-  cond_title6: `Payment Procedure and Conditions`,
-  cond_title7: `Absence of Competition`,
-  cond_title8: `No Waiver of Rights`,
-  cond_title9: `Disclaimer and Limitation of Liability:`,
-  cond_title10: `General Provisions`,
-  cond_text1: `<p>The Affiliate must comply with all provisions of this Agreement before it takes effect. By registering in the Affiliate Program under the terms of this Agreement, the Affiliate acknowledges their agreement to the conditions of this Agreement.</p><br>
-  <p>By accepting the SpinBet Partners Cooperation Terms, the Affiliate confirms that they are 18 years of age or older.</p><br>
-  <p>The Program may, at its discretion, verify or otherwise validate the accuracy and truthfulness of any registration information provided by the Affiliate. If at any time the Program, at its sole discretion, determines that the Affiliate's registration information is misleading, inaccurate, or untrue, the Program may restrict, prohibit, or terminate the Affiliate's account, access, and use of the Program, and/or any benefits received from the Affiliate's participation in the Program. The Program may also withhold payment of any commissions and/or other funds that may be due or payable to the Affiliate.</p><br>
-  <p>A login and password are created to access the SpinBet Partners affiliate program system. The Affiliate is solely responsible for protecting these credentials from third parties. SpinBet Partners is not responsible for the security of these confidential data. The Affiliate Program recommends using two-factor authentication to protect the account.</p><br>
-  <p>SpinBet Partners reserves the right to terminate cooperation with any Affiliate without providing reasons.</p><br>
-  <p>The sale or transfer of accounts to third parties without prior approval from the Affiliate Program is strictly prohibited.</p><br>
-  <p>SpinBet Partners Affiliate Program reserves the right to review and modify the rules of the Affiliate Program without the consent of the Affiliate and without prior notice.</p><br>
-  <p>The rules published on the Program's website are considered effective. There is no record kept of the chronology of changes to the Affiliate Program rules.</p><br>
-  <p>It is expressly agreed that the parties intend to establish a relationship between the Program and the Affiliate under this Agreement, but neither party intends to create a joint venture or make the Affiliate an agent, employee, or partner of the Program in any sense. The parties expressly agree that they are independent contractors, and this Agreement does not create a partnership as contemplated by the Partnership Act, R.S.B.C. 1996, c.348, and the parties have not granted each other any rights or authority to assume or create any obligations or liabilities, explicit or implied, on behalf of each other or to bind the other party in any way.</p><br>
-  <p>It is also agreed that the Affiliate is not authorized to create or assume any obligations on behalf of the Program or on its own behalf, explicit or implied, or to act or intend to act as its agent or representative for any purpose, and the Affiliate has no right to position itself as possessing such authority.</p><br>
-  <p>The Affiliate bears sole responsibility for the development, functioning, and maintenance of the Affiliate's website, as well as for all materials that appear on the Affiliate's website. These responsibilities include, among others, the technical operation of the Affiliate's website and all related equipment; creating and placing reviews, descriptions, and links to products on the Affiliate's website and linking these descriptions to the Program's website; the accuracy and correctness of the materials posted on the Affiliate's website; and ensuring that the materials posted on the Affiliate's website do not infringe upon or violate the rights of any third party, nor are they defamatory or otherwise illegal. The Program disclaims any responsibility for such matters. Except as provided in this section, the Affiliate may not sublease, lease, sell, resell, outsource, or service any Offer, and any attempt to do so will be invalid.</p><br>
-  <p>The Affiliate may be granted a non-exclusive, non-transferable license for the duration of this Agreement to use the trade name of the Program, trademarks, service marks, logos, and any other designations solely with the written permission of the Program's representative, exclusively in connection with the placement of advertising materials on the Affiliate's website. This license may not be sublicensed, assigned, or otherwise transferred by the Affiliate. The Affiliate's right to use the Marks is limited to this license and arises solely from this license. The Affiliate shall not assert the invalidity, lack of enforceability, or challenge the ownership of the Marks in any actions or legal proceedings of any kind or nature, nor shall it take any actions that may impair the Program's rights to the Marks, create similar marks, otherwise weaken their validity, or harm their associated reputation.</p><br>
-  <p>If the Affiliate is not active, does not log in to the personal account and does not respond to messages on the contacts specified in the registration form for more than 90 days, his account may be temporarily blocked. To recover a blocked account, the Affiliate must contact support via mail or other messenger for further instructions from our Affiliate Manager.</p><br />
+  cond_main_title: "Terms of the affiliate program SpinBet Partners",
+  cond_main_text: `LAST UPDATED: 26.07.23<br><br>
+  Sprut Group B.V., a company registered in Curacao, with registration number149459 and registered office: Abraham Mendez Chumaceiro Boulevard 03, Willemstad, Curacao, referred to in this Agreement (“SpinBet Partners”), (“Program”)<br><br>
+  These terms and conditions ("Agreement") govern your participation in the SpinBet Partners affiliate program ("Program") as an affiliate ("Affiliate"). The Partner undertakes to comply with this Agreement and the schedules and agrees with them and the amendments made by the Program.<br><br><br>
+  Terms<br><br>
+  For the purposes of this Agreement, the following terms are used in the text:<br><br>
+  Brand traffic: traffic generated by requests containing the names of affiliate program projects in various ways, including those with errors (typos);<br><br>
+  Motivated traffic: these are users who have agreed to perform any action that qualifies as a conversion in exchange for money or any other type of promotion;<br><br>
+  GGR: gross gaming income, calculated as the sum of all bets minus the sum of all winnings;<br><br>
+  Payment System Commissions: payment systems commission;<br><br>
+  Royalty of Game Providers: commission of game providers;<br><br>
+  NGR: net gaming income;<br><br>
+  RevShare: Affiliate commission percentage;<br><br>
+  CPA: payment for specific actions of the client on the Program website;<br><br>
+  Offer: a commercial offer posted on the Program website, available to Partners under individual commercial and territorial conditions for each offer.
   `,
+  cond_title1: `1. SpinBet Partners Terms and Conditions:`,
+  cond_title2: `2. Traffic, sources, and restrictions:`,
+  cond_title3: `3. Commissions, negative balance carryover, and sub-partnerships.`,
+  cond_title4: `4. Use of promotional materials`,
+  cond_title5: `5. Fraud and violation of the rules of cooperation`,
+  cond_title6: `6. Procedure and terms of payment`,
+  cond_title7: `7. Non-competition`,
+  cond_title8: `8. The right to enforce the contract`,
+  cond_title9: `9. Disclaimer`,
+  cond_title10: `10. Final provisions`,
+  cond_text1: `1.1 Principles of work, safety of data and account:<br>
+  <br>
+   (a) By registering in the Affiliate Program under the terms of this Agreement, the Partner confirms his acceptance of the terms of this Agreement.<br>
+  <br>
+  (b) By accepting the SpinBet Partners Terms and Conditions, the Affiliate confirms that he/she is 18 years of age or older.<br>
+  <br>
+  1.2 The Program may, at its sole discretion, confirm or otherwise verify the validity and accuracy of any information provided by the Partner during the registration. If at any time the Program determines, in its sole discretion, that the information provided by the Partner during the registration is misleading, inaccurate, or untrue, the Program may restrict, disable or terminate the Partner's account, access, and use by the Partner of the Program and/or any the benefits received from the Partner's participation in the Program; The Program may also withhold the payment of any commissions and/or other funds that may or may not be payable to the Affiliate.<br>
+  <br>
+  1.3. Login and password are created to access the system of the affiliate program SpinBet Partners.<br>
+  <br>
+  1.4. The responsibility for protecting this data from third parties lies solely with the Partner. SpinBet Partners is not responsible for the safety of this confidential data. The Affiliate Program recommends using two-factor authentication to secure your account.<br>
+  <br>
+  1.5. The SpinBet Partners program may refuse to cooperate with any Partner without giving reasons.<br>
+  <br>
+  1.6. Selling or transferring accounts to third parties without prior approval from the Affiliate Program is strictly prohibited.<br>
+  <br>
+  1.7. SpinBet Partners Affiliate Program reserves the right to revise and change the rules of the Affiliate Program without the consent of the Partner and without prior notice.<br>
+  <br>
+  1.8. The rules published on the Program website are considered valid. The chronology of changes in the rules of the Affiliate Program is not maintained.<br>
+  <br>
+  1.9. The parties intend under this Agreement to establish a relationship between the Program and the Partner. Still, neither party intends to create a joint venture or make the Partner in any sense an agent or employee of the Program. The parties expressly agree that they are independent contractors and that this Agreement does not in any way create a joint venture nor have the parties granted each other any right or authority to incur or create any obligation of liability, express or implied, on behalf of each other, or bind the other party in any way.<br>
+  <br>
+  1.10. Affiliate shall not create or assume on behalf of the Program or on its own behalf any obligations, express or implied, or act or intend to act as its agent or representative for any purpose, and Affiliate shall not have the right to position himself as having such authority.<br>
+  <br>
+  1.11. The Partner is solely responsible for the development, operation, and maintenance of the Partner's website, as well as for all materials that appear on the Partner's website. Such responsibilities include, but are not limited to, the technical operation of the Partner's website and all related equipment; creation and placement of reviews, descriptions, and links to products on the Partner's website and linking these links to the Program website; the accuracy and correctness of the materials posted on the Partner's website; and ensuring that materials posted on the Affiliate's website do not infringe or infringe on the rights of any third party, or be defamatory or otherwise violate any applicable law. The program declines any responsibility for such cases. Except as provided in this Section, the Affiliate may not sublease, rent, sell, resell, or outsource any Proposal, and any attempt to do so will be invalid.<br>
+  <br>
+  1.12. The Partner may be granted a non-exclusive, non-transferable license for the term of this Agreement to use the trade name of the Program, trademarks, service marks, logos, and any other designations (together - Intellectual Property) only with the written consent of the Program Representative solely in connection with the placement of advertising materials on Partner website. This license may not be sublicensed, assigned, or otherwise transferred by the Affiliate. Affiliate's right to use the Intellectual Property is limited by this license and arises only from this license. Affiliate shall not assert invalidity, unenforceability or challenge the right to the Intellectual Property in any action or proceeding of any kind or nature, and shall not take any action that may infringe the Program's rights to the Intellectual Property, create a similar, otherwise weaken its validity or harm the reputation that accompanies it.<br>
+  `,
+  cond_text2: `2.1. The Affiliate Program reserves the right to request information about the Partner's traffic sources at any time.<br>
+  <br>
+  2.2. If the Affiliate refuses to provide information about the sources through which he/she advertises the casino, the Affiliate Program reserves the right to suspend payments to the Affiliate.<br>
+  <br>
+  2.3. For websites, you need to specify a URL (or an alternative way to the domain), for media/arbitrage traffic - an example ad and a screenshot of the advertising account, for email newsletters - add an email address support@spinbet.partners to the mailing list, as well as show the texts and templates of letters, for public publications on social networks, streaming channels or mobile applications - use the correct links.<br>
+  <br>
+  2.4. If the advertisement uses languages &#8203;&#8203;not used in the Affiliate Program, the Partner is obliged to translate it upon request. The Affiliate Program uses the &ldquo;Last cookie wins&rdquo; rule. This means that the player will be assigned to the Partner whose advertisement led to the player's registration with SpinBet Partners for the last time.<br>
+  <br>
+  2.5. The SpinBet Partners Affiliate Program allows Partners to send emails to players using the Partner's own contact databases, only if the source of this data is indicated. The text of the e-mail must be approved in advance by the Affiliate Program.<br>
+  <br>
+  2.6. Engaging players using spam mailings is prohibited. Upon detection of such mailing, the Affiliate Program may close the Partner's personal account in the SpinBet Partners system without paying out the funds earned and stored on the account.<br>
+  <br>
+  2.7. Branded traffic Affiliates are limited to the Affiliate Program through standard commission programs.<br>
+  <br>
+  2.8. For the Spinbetter.com RevShare project, the commission for Branded traffic is 20%.<br>
+  <br>
+  2.9. Also under the definition of branded traffic are sites with a copied or similar design to the original. It is strictly forbidden to use the names of the Affiliate Program projects or the names of the Affiliate Projects with numbers that may look like a mirror of the project for branded traffic, such as Spinbetter1, SpinBetter2, Spinbetter123, etc.<br>
+  <br>
+  2.10. If the Affiliate wants to use branded traffic, it is necessary to contact the Affiliate Program and agree on the conditions under which the Affiliate Program can accept this traffic. In case of deliberate use of standard commissions for branded traffic and concealment of this information, the Affiliate Program reserves the right to suspend cooperation with the Partner.<br>
+  <br>
+  2.11. Motivated traffic is prohibited by the Affiliate Program. If such traffic is detected, the Affiliate Program reserves the right to close the Affiliate's account without warning and payment of any funds stored in the account.<br>
+  `,
+  cond_text3: `3.1 The standard commission program is dynamic RevShare from 20% to 55%, which is calculated by the formula:<br>
+  <br>
+  [(Bets &ndash; Wins) &ndash; Payment System Commissions &mdash; Royalty of Game Providers] * % RevShare = NGR * % RevShare.<br>
+  <br>
+  3.2. In the SpinBet Partners affiliate program, you can work on CPA and Hybrid programs (CPA + RevShare). These programs are set on an individual basis by agreement between the Affiliate Program and the Affiliate and may be canceled at any time within 24 hours after the Affiliate has been notified.<br>
+  <br>
+  3.3. If an Affiliate operates on the RevShare flat commission model and fails to attract new players to affiliate program projects for 1 month or more, his/her RevShare flat commission may be changed to the RevShare minimum commission program of 20% or one that matches his/her dynamic grid.<br>
+  <br>
+  3.4. At the beginning of cooperation, representatives of the affiliate program can offer the partner a RevShare deal - 50% to start working, within 1-2 months. At the end of the month, the conditions can be revised up or down based on the volume of traffic in accordance with the dynamic grid.<br>
+  <br>
+  Single dynamic RevShare grid for sports betting and casino:<br><br>
+  <div class="terms-grid" style="display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 1px solid #fff;">
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">0-9</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">20%</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">10-24</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">25%</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">25-35</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">30%</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">35-44</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">35%</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">45-54</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">40%</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">55-99</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">45%</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">100+</div>
+  <div style="display:flex; align-items:center;justify-content:center; border:1px solid #fff;">50%</div>
+</div>
+<br><br>
+  3.5. If during the billing period, there were winnings of players that exceeded their deposits, that is, if the players engaged by the Partner caused losses to the Casino, the Partner's income for this billing period will be equal to zero.<br>
+<br>
+3.6. If there is a negative balance on the Partner's account in the current billing period, it can be rolled over to the next billing period. In such cases, the next billing period starts with a negative value.<br>
+<br>
+ 3.7. Negative balance transfer can be disabled if, during the 1st month, the traffic and activity of the player meet these conditions:<br>
+<br>
+Number of registrations &mdash; 1000+<br>
+A number of players with first deposits (FTD) - 100+<br>
+The total amount of deposits &mdash; $20,000<br>
+Number of players with deposits - 200<br>
+<br>
+If one of the indicators is less than these criteria, then the transfer of the negative balance will be re-enabled for the Partner.<br>
+<br>
+3.8. If an Affiliate has referred a person who wants to become a new Affiliate (sub-affiliate) and cooperate with the SpinBet Partners Affiliate Program, the Affiliate who has referred a new Affiliate will receive referral bonuses.<br>
+<br>
+3.9. The amount of referral bonuses is 2-5% of the NGR earnings of all previously listed sub-partners for the billing period.<br>
+<br>
+3.10. Any violation by the Sub-Partner of the provisions of this Agreement will be considered a violation of this Agreement by the Partner.<br>
 
-  cond_text2: `<p>The affiliate program reserves the right to request information about the partner's traffic sources at any time.</p><br>
-  <p>IF THE PARTNER REFUSES TO PROVIDE INFORMATION ABOUT THE SOURCES HE/SHE ADVERTS THE CASINO WITH, THE AFFILIATE PROGRAM RESERVES THE RIGHT TO SUSPEND PAYMENTS TO THE PARTNER AND/OR TO BLOCK THE PARTNER’S ACCOUNT UNTIL THE TIME OF RECEIPT OF CONFIRMATION OF TRAFFIC SOURCES.</p><br>
-  <p>For websites, it is necessary to provide the URL (or an alternative path to the domain). For media/arbitrage traffic, an example advertisement and a screenshot of the advertising account should be provided. For email campaigns, the email address support@spinbet.partners should be added to the mailing list, and the texts and templates of the emails should be shown. For public posts on social media, streaming channels, or mobile applications, the use of correct links is required.</p><br>
-  <p>If the advertising uses languages not supported by the affiliate program, the partner is obliged to translate it upon request. The affiliate program operates under the "Last cookie wins" rule, which means that the player will be attributed to the partner whose advertising led to the player's registration with SpinBet Partners most recently.</p><br>
-  <p>SpinBet Partners allows partners to send emails to players using their own contact databases, but only if the source of this data is specified. The email content must be pre-approved by the affiliate program and sent by a third party.</p><br>
-  <p>Acquiring players through spam mailings is prohibited. If such spam mailings are detected, the affiliate program may close the partner's personal account in the SpinBet Partners system without paying out any earned funds stored in the account.</p><br>
-  <p>The use of Branded traffic by partners is limited by the affiliate program through standard commission programs.</p><br>
-  <p>For the SpinBetter.com RevShare project, the commission for branded traffic is 20%.</p><br>
-  <p>Branded traffic refers to traffic generated by queries containing the names of the affiliate program projects in various forms, including with errors or typos. This definition also includes websites with copied or similar designs to the original. It is strictly prohibited to use the names of the Affiliate Program projects or Partner Project names with numbers that may resemble a project mirror for branded traffic, such as Spinbetter1, SpinBetter2, Spinbetter123, etc.</p><br>
-  <p>If partners wish to use branded traffic, they need to contact the Affiliate Program and agree on the terms under which the Affiliate Program can accept this traffic. In case of intentional use of standard commissions for branded traffic and concealing this information, the Affiliate Program reserves the right to suspend cooperation with the partner.</p><br>
-  <p>The use of incentivized traffic is prohibited by the Affiliate Program. If such traffic is detected, the Affiliate Program reserves the right to close the partner's account without warning and without paying out any funds stored in the account.</p><br>`,
-  cond_text3: `<p>The standard commission program is the dynamic RevShare ranging from 20% to 55%, calculated using the formula:</p><br>
-  <p>[(Bets - Wins) - Payment System Commissions - Royalty of Game Providers] * % RevShare = NGR * % RevShare, where:</p><br>
-  <p>Bets - Wins (GGR) is the gross gaming revenue, calculated as the sum of all bets minus the sum of all wins;</p><br>
-  <p>Payment System Commissions are the commissions of payment systems;</p><br>
-  <p>Royalty of Game Providers is the commission of game providers;</p><br>
-  <p>NGR (Net Gaming Revenue) is the same as net gaming revenue;</p><br>
-  <p>% RevShare is your commission percentage.</p><br>
-  <p>In the SpinBet Partners affiliate program, partners can work with CPA and Hybrid (CPA + RevShare) programs. These programs are established on an individual basis by agreement between the Affiliate Program and the Partner and can be canceled at any time with a 24-hour written notice to the Partner.</p><br>
-  <p>If a partner works under the fixed commission model of RevShare and fails to attract new players to the affiliate program projects for 1 month or more, their fixed commission of RevShare can be changed to the minimum RevShare commission program, which is 20%, or to one that corresponds to their dynamic grid.</p><br>
-  <p>At the start of the partnership, affiliate program representatives may offer a RevShare deal of 50% for the initial period of 1-2 months. After the first month, the conditions can be reviewed based on the volume of traffic and adjusted accordingly within the dynamic grid.</p><br>
-  <p>Unified dynamic RevShare grid for sports betting and casino:</p><br>
-  <p>0-9 — 20%</p>
-<br />
-<p>10-24 — 25%</p>
-<br />
-<p>25-34 — 30%</p>
-<br />
-<p>35-44 — 35%</p>
-<br />
-<p>45-54 — 40%</p>
-<br />
-<p>55-99 — 45%</p>
-<br />
-<p>100+ — 50%</p>
-<br />
-  <p>If during the calculation period there were player wins exceeding their deposits, meaning if the players attracted by the Partner caused losses to the Casino, the Partner's revenue for that calculation period is zero.</p><br>
-  <p>If the Partner has a negative balance in the current calculation period, it can be carried over to the next calculation period.</p><br>
-  <p>In such cases, the next calculation period starts with a negative value. Negative balance carryover can be disabled if the following conditions are met within 1 month:</p><br>
-  <p>Number of registrations - 1000+</p><br>
-  <p>Number of First-Time Depositors (FTD) - 100+</p><br>
-  <p>Total deposit amount - $20,000</p><br>
-  <p>Number of depositing players - 200</p><br>
-  <p>If any of the metrics fall below these criteria, the negative balance carryover will be restored to the Partner.</p><br>
-  <p>If a Partner refers to someone who wants to become a new Partner (sub-affiliate) and collaborate with the SpinBet Partners affiliate program, the referring Partner will receive referral bonuses.</p><br>
-  <p>The size of the referral bonuses is 2-5% of the NGR earnings of all previously referred sub-affiliates for the calculation period.</p><br>
-  <p>Any violation of the Sub-affiliate Terms by the Sub-affiliate will be considered a violation of this Agreement by the Affiliate.</p><br>`,
-  cond_text4: `<p>The use of promotional materials (graphics, videos, logos, layout elements, text) from our SpinBetter project for the purpose of promoting the Partner's own projects is prohibited.</p><br>
-  <p>In case of violation of this rule, the Partner's account may be blocked without any prior notification.</p><br>
-  <p>It is prohibited to modify the logos of the Partner Program Projects in any way, including changing fonts, colors, or any other alterations that contradict the Brand Book. The Partner may request the Brand Book from their personal Manager if necessary.</p><br>
-  <p>SpinBet Partners affiliate program provides its Partners with various textual and graphical materials (by prior agreement). Partners are allowed to use any information from the casino website and personal casino account, but only in their own words. If the text is copied from the casino website "as is," the Affiliate Program may terminate the partnership with the Partner or consider their traffic as branded.</p><br>
-  <p>Affiliates of SpinBet Partners are prohibited from promoting SpinBetter through spam email campaigns, context advertising mentioning the SpinBetter or SpinBet Partners brand, and ClickUnder/PopUnder type of advertising. In case such actions are detected, the Affiliate's personal account will be closed, any accumulated funds will be voided, and commissions will be withheld. It is also prohibited to use false information about the casino and bonuses.</p><br>
-  <p>The affiliate program may request the replacement of outdated links, screenshots, logos, and other advertising materials. If the Partner refuses to replace them, the affiliate program may postpone the payout indefinitely until the replacement is made.</p><br>
-  <p>Information about SpinBetter.com and any other projects of the Affiliate Program in the Partner's reviews must be accurate. In case of providing false information that differs from the information on the project's websites, the affiliate program may suspend the partnership with the Partner.</p>`,
-  cond_text5: `<p>Partners are prohibited from owning and using their personal accounts in any casinos that belong to the SpinBet Partners Affiliate Program through their own referral link. In case of violation of this rule, both partner accounts will be blocked, and funds from both accounts will be deducted. Such decisions are not subject to discussion. This rule also applies to the Partner's family members and close associates.</p><br>
-  <p>The affiliate program reserves the right to adjust the Partner's balance by the amount lost by the casino due to fraudulent actions of players referred by the Partner. The Partner's balance may be adjusted for this reason for an unlimited period of time after the discovery of fraud.</p><br>
-  <p>The affiliate program has the right not to pay the Partner the profit earned under the CPA model in cases where the Partner attracts non-genuine customers (players with multiple accounts, incentivized or fraudulent traffic, etc.). If the Affiliate Program administration notices any atypical player behavior (e.g., an unusually high percentage of players who do not return to the project after CPA qualification), the partner's income will be recalculated according to the standard RevShare commission.</p><br>
-  <p>Deliberately providing false information about traffic sources to the Affiliate Program may result in termination of cooperation.</p><br>
-  <p>The affiliate program has the right to terminate the Agreement and immediately block the Partner's account by sending a written notice of termination to the Partner in case of: insults towards the support and administration of the Affiliate Program and/or projects; misleading and/or false public statements about the Affiliate Program and/or projects. Misleading and/or false public statements may include text, actions, or any manipulation of information by the Partner without any supporting evidence (screenshots, links, etc.). Texts, images, or data in any other digital form containing offensive expressions or any other direct/indirect insults may be considered as insults towards the support and administration of the Affiliate Program and/or projects.</p><br>
-  <p>If the Casino administration or the Affiliate Program administration has grounds to suspect a Partner of violating the Affiliate Program rules during the collaboration, their account may be blocked, and payouts may be frozen indefinitely until the circumstances are clarified. If the investigation concludes that a violation has occurred, the SpinBet Partners Affiliate Program has the right not to make any payouts to the Partner.</p><br>
-  <p>In case of disagreements, the Partner should provide arguments in favor of their point of view and their proposed resolution of the existing situation to the Affiliate Program. The SpinBet Partners Affiliate Program is willing to consider all arguments presented by the Partner and find a solution that is fair from both perspectives. The decision of the Affiliate Program cannot be contested.</p>`,
-  cond_text6: `<p>The program will pay the Affiliate a commission calculated according to the payment terms specified in each Offer posted by the Program on the Program's website. The Program applies payment plans of NET 60, NET 30, NET 15, or NET 7 at its sole discretion, depending on the volume and quality of traffic sent by the Partner unless otherwise agreed by both parties.</p><br>
-  <p>Regardless of the chosen payment method (e.g., Neteller, Skrill, etc.), the Affiliate must provide their actual banking details to the Program.</p><br>
-  <p>The Affiliate Program only makes payments to the details specified in the Partner's personal account. Changing the payment details can be done in the Partner's personal account independently. The Affiliate Program is not responsible if the payment was made to details from the Affiliate's personal account, but they turned out to be invalid or incorrect. The Affiliate bears full and sole responsibility for the accuracy of the data they provide. If the Affiliate wants to change the payment details, they must notify it by email to support@spinbet.partners using the email registered on the Affiliate Program's website. If such a notification is not sent or the message is received from an email that does not belong to the registered account, the request will not be considered and will be canceled.</p><br>
-  <p>The program may, at its own discretion and from time to time, decide to transfer part or all of the Commissions to the Affiliate before receiving payment from the Client, but in no case is the Program obligated to do so.</p><br>
-  <p>Commissions will be paid to the Affiliate only after the Program has received payment from the Client for such Offer, as published in the Program's online reporting system.</p><br>
-  <p>The Partner receives a commission in the Affiliate Program, which is calculated as a percentage of the net revenue generated by the casino from players referred by the Partner. The Partner can choose the most advantageous commission model for them.</p><br>
-  <p>Earnings for the previous settlement period are credited within five business days.</p><br>
-  <p>The minimum withdrawal amount from the Partner's account is 50 EUR for payment systems and 500 EUR for bank transfers.</p><br>
-  <p>Payment details can be changed no later than 5 business days before the end of the settlement period and before the payment period ends. The administration may withhold payments to partners whose players show suspicious activity or to new partners for a period of time deemed suitable for verification by the Affiliate Program.</p><br>
-  <p>If the Partner attracts fewer than 5 players before the first withdrawal, additional verification of those players may be conducted.</p><br>
-  <p>The Affiliate Program pays lifetime commissions for all commissions as long as the Partner fulfills all their obligations and does not cause any reputational or financial damage to the Affiliate Program or its projects.</p><br>
-  <p>The Affiliate Program may withhold payments for CPA or Hybrid models for 7-21 days.</p>`,
-  cond_text7: `<p>During the term of this Agreement and for a period of six (6) months thereafter, the Affiliate shall not attempt in any way to undermine the reputation of the Program, and in particular, the Affiliate shall not directly or indirectly: (1) solicit or entice, or attempt to solicit or entice, employment other than with the Program; (2) induce or entice, or attempt to induce or entice, any of the Program's employees to become employed by the Affiliate or a competitor of the Program; or (3) directly or indirectly enter into any agreement or contract, written or otherwise, with any Client or provide services to any third party for the ultimate benefit of a Client who, in the opinion of the Program, may compete with any services provided by the Program to that Client.</p>`,
-  cond_text8: `<p>The Program's inability to strictly enforce any provision of this Agreement shall not constitute a waiver of the Program's right to subsequently enforce such provision or any other provision of this Agreement. No changes by employees or affiliates, as well as additions, deletions, or insertions to this Agreement, shall be recognized by the Program until published on the website. None of our employees or agents are authorized to make or agree to any changes or modifications to this Agreement or its terms.</p>`,
-  cond_text9: `<p>The Program disclaims all warranties, conditions, representations, indemnities, and guarantees with respect to any matter, whether express or implied (including, without limitation, any warranties of profitability, satisfactory quality, merchantability, fitness for any particular purpose, ownership rights, and non-infringement of rights).</p>
-  <p>Notwithstanding any other provisions of this Agreement, the Program further disclaims all obligations and liability on the part of the Program and those for whom it is legally responsible for any damages, including, without limitation, indirect, special, and consequential damages, attorney's fees and expert fees, and court costs (even if the Program has been advised of the possibility of such damages, fees, or costs), arising out of or in connection with this Agreement. Under no circumstances shall the Program be liable to the Affiliate for any indirect, consequential, special, punitive, or incidental damages or lost profits of the Partner or its successors (including, without limitation, claims regarding loss of reputation, use, or reliance on services provided under this Agreement).</p>
-  <p>Without limiting the foregoing, the Program shall not be liable for any failure or delay resulting from any actions of the government, fire, flood, riot, earthquake, power outage, civil unrest, explosion, embargo, strikes, legal or illegal, shortage of labor or materials, transportation interruption of any kind, slowdown, acts or omissions of the Affiliate or third parties, equipment or software of the Affiliate and/or any third-party equipment, or any other conditions affecting production or delivery in any manner beyond the control of the Program.</p>`,
-  cond_text10: `<p>The Program may assign this Agreement without the prior consent of the Affiliate. The Affiliate may not assign this Agreement without the explicit written consent of the Program.</p><br />
-  <p>The Program reserves the right to modify or supplement this Agreement at any time, for any reason, or without any reason, at its sole discretion. The most current version of this Agreement will be posted here. While the Program may notify the Affiliate of material changes to this Agreement, the Affiliate is solely responsible for staying informed of any such changes or additions. Any notice or other communication ("Notice") required or permitted under this Agreement shall be in writing and delivered in person or sent by fax or email to the receiving party at the address provided by the Affiliate in their Program account. Any such Notice shall be deemed received on the day it was sent by fax, email, or delivered. No provisions or conditions of this Agreement shall be deemed waived, and no breach shall be justified unless such waiver or consent justifying the breach is in writing and signed by both parties.</p><br />
-  <p>In the event that any provision or obligation of this Agreement is declared by a court of competent jurisdiction to be indefinite, invalid, illegal, or unenforceable, then this Agreement with respect to the remaining terms, agreements, or conditions shall remain in full force and effect.</p><br />
-  <p>This Agreement shall be binding upon and inure to the benefit of the respective successors and assigns of both the Program and the Affiliate and shall be binding on them. This Agreement constitutes the entire agreement between the parties regarding the subject matter of this agreement, superseding any prior or contemporaneous statements, negotiations, agreements, and understandings, whether oral or written.</p><br />
-  <p>This Agreement is written and available in both English and Russian languages. In the event of any discrepancies between the meanings of any translated versions of this agreement, the meaning of this English language version shall prevail.</p><br />`,
+  `,
+  cond_text4: `4.1. The use of advertising materials (graphics, videos, logos, layout elements, texts) of the Projects of the Affiliate Program in order to promote the Affiliate's own projects is prohibited.<br>
+  <br>
+  4.2. In case of violation of this rule, the Affiliate's account may be blocked without any notice.<br>
+  <br>
+  4.3. It is forbidden to change the logos of the Affiliate Program Projects in any way, including changing fonts, colors, or any other changes that contradict the Brand Book. If necessary, the Partner can request the Brand Book from his personal Manager.<br>
+  <br>
+  4.4. The Affiliate Program provides its Partners with various text and graphic materials (by prior agreement). Partners have the right to use any information from the casino website and from the casino's personal account, provided that it is paraphrased. If the text is copied from the casino website &quot;as is&quot;, the Affiliate Program may terminate the partnership with the Affiliate or treat his/her traffic as branded.<br>
+  <br>
+  4.5. Affiliates are prohibited from promoting the Projects of the Affiliate Program by sending spam by e-mail, contextual advertising mentioning the brands of the Projects of the Affiliate Program, and advertising such as ClickUnder / PopUnder. If such activity is detected, the Affiliate's personal account will be restricted, any accumulated funds and commissions will be withheld. It is also forbidden to use false information about the casino and bonuses.<br>
+  <br>
+  4.6. The affiliate program may require the replacement of outdated links, screenshots, logos, and other promotional materials; in the event that the Affiliate refuses to replace them, the Affiliate Program may defer payment for an indefinite period of time until the required changes are made.<br>
+  <br>
+  4.7. Information about SpinBetter.com and any other projects of the Affiliate Program in the Affiliate's reviews must be true. In case of an indication of false information, different from the information on the project websites, the Affiliate Program may suspend cooperation with the Partner<br>
+  `,
+  cond_text5: `5.1. Affiliates are prohibited from owning and using their personal accounts in any Projects that belong to the SpinBet Partners Affiliate Program through their own referral link. In case of violation of this rule, both accounts of the Partner will be blocked, and funds from both accounts will be debited.<br>
+  <br>
+  5.2. Such decisions are not subject to challenge. This rule also applies to members of the Partner's family and his friends, relatives, employees, contractors, and other persons with whom the Partner has a close relationship.<br>
+  <br>
+  5.3. The Affiliate Program reserves the right to change the Partner's balance by the amount that was lost by the casino as a result of the fraudulent actions of players attracted by the Partner. The partner's balance can be changed for this reason within an unlimited period of time after the detection of fraud.<br>
+  <br>
+  5.4. The Affiliate Program has the right not to pay the Affiliate the profit received under the CPA model in cases where the Affiliate attracts fake clients (players with multiple accounts, motivated or fraudulent traffic, etc.). If the administration of the Affiliate Program notices any untypical behavior of players (for example, an atypically high percentage of players who do not return to the project after CPA qualification), the partner's income will be recalculated in accordance with the standard RevShare commission.<br>
+  <br>
+  5.5. Deliberately providing the Affiliate Program with false information about traffic sources may lead to termination of cooperation.<br>
+  <br>
+  5.6. The Affiliate Program has the right to terminate the Agreement and immediately block the Affiliate's account by sending a written notice of termination of cooperation to the Affiliate in the event of insults against the Affiliate managers, support and administration of the Affiliate Program and/or its projects; misleading and/or false public statements about the Affiliate Program and/or its projects. Misrepresentation and/or false public statements may mean text, action, or other manipulation of information by the Partner, not supported by any evidence (screenshots, links, etc.). Texts, images, or data in any other digital form containing offensive language or any other direct/indirect insults may be considered as an insult in relation to the support and administration of the Affiliate Program and/or its projects.<br>
+  <br>
+  5.7. If the administration of the Projects of the Affiliate Program or the administration of the Affiliate Program has reason to suspect the Partner of violating the rules of the Affiliate Program during cooperation, his account may be blocked, and payments may be postponed for an indefinite period until the circumstances are clarified. If the check concludes that the fact of violation of the rules is confirmed, the Affiliate program has the right not to make payments to the Partner.<br>
+  <br>
+  5.8. In case of disagreement, the Partner must provide the Affiliate Program with arguments in favor of his point of view and his vision of solving the existing situation. The SpinBet Partners affiliate program is ready to consider all the arguments presented by the Partner and find a solution that is as honest as possible from the point of view of both parties. The decision of the Affiliate Program cannot be challenged.<br>
+  `,
+  cond_text6: `6.1. The Program will pay the Partner a commission calculated in accordance with the payment terms specified in each Offer posted by the Program on the Program Website. The Program applies NET 60, NET 30, NET 15, or NET 7 payment plans at its sole discretion, depending on the volume and quality of traffic sent by the Partner, unless otherwise agreed by both parties.<br>
+  <br>
+  6.2. Regardless of the chosen payment method (for example, Neteller, Skrill, etc.). The Partner must provide the Program with their actual bank details.<br>
+  <br>
+  6.3. The Affiliate Program makes payments only to the details that are specified in the Partner's personal account. The details can be changed in the partner's personal account independently. The Affiliate Program is not responsible if the payment was made using the details from the Partner's personal account, but turned out to be invalid or incorrect. The Partner bears full, sole, and independent responsibility for the relevance of the data entered by him. If the Affiliate wants to change the payment details, he must report this without fail to mail support@spinbet.partners from the mail under which he registered on the Affiliate Program website. If a message about this was not received by mail or the message was received from another mail that does not belong to the registered account, then the request will not be taken into account and will be canceled.<br>
+  <br>
+  6.4 The Program may, in its sole discretion and from time to time, decide to transfer some or all of the Commission to the Affiliate before receiving payment from the Client, but in no case is obliged to do so.<br>
+  <br>
+  6.5. Commissions will only be paid to the Affiliate upon receipt by the Program of payment from the Client in respect of such Offer published in the Program's online reporting system.<br>
+  <br>
+  6.6 The Affiliate receives a commission in the Affiliate Program, which is calculated as a percentage of the casino's net income from players referred by the Affiliate. The partner can choose the most profitable commission model for him.<br>
+  <br>
+  6.7. The minimum withdrawal amount from the Partner's account is 50 EUR for payment systems and 500 EUR for a bank transfer.<br>
+  <br>
+  6.8. Payment details can be changed no later than 5 working days before the end of the billing period and before the end of payments. The administration may delay payments to partners whose players show suspicious activity, or to new partners for a period of time that the Affiliate Program deems appropriate for verification.<br>
+  <br>
+  6.9. If the Partner refers less than 5 players before the first withdrawal, additional verification of these players may be carried out.<br>
+  <br>
+  6.10. The Affiliate Program pays lifetime commissions on all commissions as long as the Affiliate fulfills all of its obligations and does not cause any reputational or financial damage to the Affiliate Program or its projects.<br>
+  `,
+  cond_text7: `7.1 During the term of this Agreement and for a period of six (6) months thereafter, Affiliate shall not attempt in any way to bring the Program into disrepute, and in particular, Affiliate shall not, directly or indirectly: 1) solicit, or attempt to solicit or solicit, work other than the Program; (2) induce or attempt to induce any of the Program's employees to change jobs for employment with a Program Partner or competitor; or (3) directly or indirectly enter into any agreement or contract, whether in writing or otherwise, with any Client or otherwise provide services to any third party for the ultimate benefit of a Client who, in the opinion of the Program, may compete with any services provided by the Program to that Client.`,
+  cond_text8: `8.1. The Program's failure to enforce the Affiliate's strict compliance with any provision of this Agreement will not constitute a waiver of the Program's right to subsequently enforce such provision or any other provision of this Agreement. No changes by employees or Partners, as well as additions, deletions, or additions to this Agreement, will be recognized by the Program until the moment of publication on the site. None of our employees or agents has the authority to make or agree to any change or modification to this Agreement or its terms.`,
+  cond_text9: `9.1. The Program disclaims all warranties, conditions, representations, and indemnifications with respect to any liability, express or implied (including, without limitation, any warranties of profitability, satisfactory quality, merchantability, fitness for a particular purpose, title, and non-infringement).<br>
+  <br>
+  9.2. Notwithstanding any other provision of this Agreement, the Program further disclaims all obligations and liability on the part of the Program and those to whom it is legally liable for any damages, including, but not limited to indirect and special damages, attorneys' and experts' fees, and legal costs (even if the Program has been advised of the possibility of such damages, fees or costs) arising out of or in connection with this Agreement. Under no circumstances will the Program be liable to the Partner for any indirect, indirect, special, punitive or incidental damages or loss of profits of the Partner or its successors in title (including, without limitation, claims for loss of reputation, use of or reliance on the services provided under this Agreement, stop other work, or damage other assets) arising from the breach or non-performance of express or implied warranties, breach of agreement, misrepresentation, negligence, liability for tort, or otherwise.<br>
+  <br>
+  9.3. Without limiting the foregoing, the Program shall not be liable for any failure or delay resulting from any act of God, fire, flood, war, riot, earthquake, power outage, riot, explosion, embargo, strike, lawful or illegal action, labor shortage or materials, interruption of transportation of any kind, slowdown, action or inaction of the Partner or third parties, the equipment or software of the Partner and/or any third party equipment, or any other conditions affecting production or delivery in any way beyond the control of the Program.<br>
+  `,
+  cond_text10: `10.1. The Program may assign this Agreement without the prior consent of the Partner. The Partner may not assign this Agreement without the express written consent of the Program.<br>
+  <br>
+  10.2. The Program reserves the right to modify or supplement this Agreement at any time, for any reason or no reason at all, at its sole discretion. The most recent version of this Agreement will be posted here. Although the Program may notify the Affiliate of material changes to this Agreement, the Affiliate shall be solely responsible for keeping abreast of any such changes or additions. Any notice or other communication permitted or required by this Agreement must be in writing and delivered personally or by fax or email to the receiving party at the address provided to the Program by the Partner in his account. Any such notice will be deemed received on the date it is faxed, emailed, or delivered in person. No term or condition of this Agreement shall be deemed waived or a breach warranted unless such waiver or consent justifying the breach is in writing and signed by both parties.<br>
+  <br>
+  10.3. In the event that any term or obligation of this Agreement is declared by a court of competent jurisdiction to be perpetual, invalid, illegal, or unenforceable, this Agreement with respect to the remaining provisions will remain in effect.<br>
+  <br>
+  10.4. This Agreement will govern and be binding on the respective successors and successors of both the Program and the Partner. This Agreement constitutes the entire agreement between the parties with respect to the subject matter of this agreement and supersedes any prior or contemporaneous representations, negotiations, understandings, and agreements, whether oral or written.<br>
+  <br>
+  10.5. This Agreement is written and available in English and Russian. In the event of any inconsistency between the meanings of any translated versions of this agreement, the meaning of that English version shall prevail.<br>
+  <br>
+  10.6. The validity, interpretation, and performance of this Agreement shall be governed by the laws of Curacao.<br>
+  <br>
+  10.7. Any disputes arising between the Parties from this Agreement or in connection with it shall be resolved in the appropriate court of Curacao in accordance with the laws of Curacao.<br>
+  `,
   faq_title: `The most asked question “What is the retention rate?”.<br/> We answer right away!`,
   faq_subtitle: `The ratio of the amount of deposits to the amount of bets — <span>1х13</span>`,
   faq_titlesub: `Reg2Dep conversion = <span>Up to 40%</span>`,

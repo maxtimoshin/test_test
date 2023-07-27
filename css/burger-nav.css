@@ -4,6 +4,33 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+.burger-langs {
+    display: flex;
+    gap: 15px;
+}
+
+.header-langs-burger {
+    width: fit-content;
+}
+
+.cur-lang-burger {
+    font-family: "Futura PT" !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    line-height: 26px !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px !important;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.lang-arrow-burger {
+}
+
+.sub-languages-list-burger {
+    margin-top: 30px !important;
+}
 
 .menu-icon {
     display: none;
@@ -147,7 +174,7 @@
         gap: 10px;
     }
 
-    @media (max-width:550px) {
+    @media (max-width: 550px) {
         .menu-list > ul {
             list-style: none;
             /* -webkit-box-align: center;

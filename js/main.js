@@ -46,17 +46,16 @@ function removeAnchor() {
 }
 
 // Scroll to block handler
-window.addEventListener("DOMContentLoaded", (e) => {
-  e.preventDefault();
+window.addEventListener("load", () => {
   if (window.location.hash === "#contacts") {
-    managersBlock.scrollIntoView({ behavior: "smooth", block: "start" });
     removeAnchor();
     closeBurgerModal();
+    managersBlock.scrollIntoView({ behavior: "smooth", block: "start" });
   }
   if (window.location.hash === "#terms") {
-    termsBlock.scrollIntoView({ behavior: "smooth", block: "start" });
     removeAnchor();
     closeBurgerModal();
+    termsBlock.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 });
 
@@ -113,7 +112,6 @@ function handleScroll() {
     isScrolling = false;
   }
 }
-
 
 window.addEventListener("scroll", throttle(handleScroll, 500));
 

@@ -41,7 +41,7 @@ if (languages) {
     l.addEventListener("click", (e) => {
       e.preventDefault();
       currentLang.innerHTML = l.innerHTML;
-      closeBurgerModal()
+      closeBurgerModal();
       if (partnersIcon1 && partnersIcon3) {
         imgTranslate(l.innerHTML);
       }
