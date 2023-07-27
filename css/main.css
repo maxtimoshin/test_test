@@ -235,9 +235,9 @@
     left: 50%;
     width: 70%;
     height: 100%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    transform: translate(-50%, -50%) translate3d(0, 0, 0);
     background: rgb(0, 102, 255);
     background: radial-gradient(circle, rgba(0, 102, 255, 1) 0%, rgba(0, 212, 255, 0) 80%);
     -webkit-filter: blur(40px);
@@ -936,13 +936,13 @@
     height: 80%;
     left: 50%;
     top: 50%;
+    -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    transform: translate(-50%, -50%) translate3d(0, 0, 0);
     background: rgb(0, 102, 255);
     background: radial-gradient(circle, rgba(0, 102, 255, 1) 0%, rgba(0, 212, 255, 0) 100%);
     -webkit-filter: blur(60px);
     filter: blur(60px);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     z-index: -1;
 }
 
@@ -1134,13 +1134,13 @@
     height: 60%;
     left: 50%;
     top: 50%;
+    -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    transform: translate(-50%, -50%) translate3d(0, 0, 0);
     background: rgb(0, 102, 255);
     background: radial-gradient(circle, rgba(0, 102, 255, 1) 0%, rgba(0, 212, 255, 0) 100%);
     -webkit-filter: blur(80px);
     filter: blur(80px);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     z-index: -1;
 }
 
@@ -1514,19 +1514,13 @@
     height: 80%;
     left: 50%;
     top: 50%;
-    background: -o-radial-gradient(
-        55.15% 31.55%,
-        68.45% 68.45%,
-        rgba(0, 22, 56, 0.4) 0%,
-        rgba(102, 154, 255, 0.4) 100%
-    );
+    -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    transform: translate(-50%, -50%) translate3d(0, 0, 0);
     background: rgb(0, 102, 255);
     background: radial-gradient(circle, rgba(0, 102, 255, 1) 0%, rgba(0, 212, 255, 0) 100%);
     -webkit-filter: blur(30px);
     filter: blur(30px);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     z-index: -1;
 }
 
