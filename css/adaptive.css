@@ -7,9 +7,8 @@
 
 .header .header-nav {
     padding: 0 100px;
-    background:transparent;
+    background: transparent;
     /* z-index: 0; */
-    
 }
 
 @media (max-width: 1720px) {
@@ -330,7 +329,7 @@
         right: -600px;
     }
     .header-buttons {
-        margin-left:auto;
+        margin-left: auto;
     }
     .terms-board-block {
         max-width: 620px;
@@ -515,7 +514,7 @@
     }
 
     .header-buttons {
-        margin-left:auto;
+        margin-left: auto;
     }
     .conditions-main .title {
         font-style: normal;
@@ -1154,9 +1153,8 @@
     }
     .verticals-block {
         padding: 0 16px;
-        margin:0;
+        margin: 0;
     }
-
 }
 
 @media (max-width: 700px) {
@@ -1185,7 +1183,7 @@
         width: 22px !important;
         height: 16px !important;
     }
-    .header-content::before {
+    /* .header-content::before {
         width: 80%;
         height: 60px;
         -webkit-filter: blur(100px);
@@ -1193,7 +1191,7 @@
         -webkit-transform: translate3d(0, 0, 0);
         -ms-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
-    }
+    } */
     .registration-button {
         margin: 0 0 20px 0;
     }
@@ -1421,7 +1419,7 @@
         margin: 0 0 40px 0;
     }
 
-    .header-content::before {
+    /* .header-content::before {
         width: 60%;
         height: 40px;
         -webkit-filter: blur(60px);
@@ -1429,7 +1427,7 @@
         -webkit-transform: translate3d(0, 0, 0);
         -ms-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
-    }
+    } */
     .verticals-block .registration-button {
         margin-top: 20px;
     }
@@ -1563,7 +1561,7 @@
     }
     .header-content-image {
         margin-top: 20px;
-        margin-bottom:40px;
+        margin-bottom: 40px;
     }
     .header-title {
         font-size: 36px;
