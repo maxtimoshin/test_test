@@ -215,9 +215,9 @@
     height: 100%;
     max-width: 1200px;
     max-height: 200px;
-    -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background: -o-radial-gradient(
         8.48% 0%,
         234.86% 821.87%,
@@ -383,7 +383,7 @@
     width: 100%;
     padding: 0 !important;
     margin: 0 !important;
-    margin-top:-15% !important;
+    margin-top: -15% !important;
     height: initial !important;
 }
 

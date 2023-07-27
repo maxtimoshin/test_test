@@ -174,7 +174,7 @@ export default {
   % RevShare - your commission percentage.`,
   faq_text18: `Please contact us for more details by emailing or writing to your manager.`,
   header_subtitle: "Affiliate program<br> from direct advertiser",
-  registration_button: "Register",
+  registration_button: "Registration",
   verticals_title: `Reach new heights`,
   verticals_subtitle: `in two verticals`,
   betting_and_casino: `<span>betting</span> & <span>casino</span>`,

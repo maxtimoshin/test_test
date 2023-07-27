@@ -1369,6 +1369,57 @@
     .manager-image-wrapper img {
         max-width: 150px;
     }
+    /* Running 3d translate for mobile blur */
+    .verticals-block::before {
+        -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    }
+    .faq-tabs::before {
+        -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    }
+    .conditions-title::before {
+        -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    }
+    .current-language::after {
+        -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    }
+    .header-content-blur {
+        -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    }
+    .verticals-block::before {
+        -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    }
+    .top-partners-block::before {
+        -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    }
+    .cpa-content::before {
+        -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    }
+    .traffic-block::before {
+        -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    }
+    .geo-block::before {
+        -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
+        transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    }
 }
 
 @media (max-width: 560px) {

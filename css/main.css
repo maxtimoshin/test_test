@@ -229,15 +229,15 @@
 } */
 
 .verticals-block::before {
-    position: absolute;
     content: "";
+    position: absolute;
     top: 50%;
     left: 50%;
     width: 70%;
-    height: 100%;
-    -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    height: 300px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background: rgb(0, 102, 255);
     background: radial-gradient(circle, rgba(0, 102, 255, 1) 0%, rgba(0, 212, 255, 0) 80%);
     -webkit-filter: blur(40px);
@@ -940,9 +940,9 @@
     height: 80%;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background: rgb(0, 102, 255);
     background: radial-gradient(circle, rgba(0, 102, 255, 1) 0%, rgba(0, 212, 255, 0) 100%);
     -webkit-filter: blur(60px);
@@ -1138,9 +1138,9 @@
     height: 60%;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background: rgb(0, 102, 255);
     background: radial-gradient(circle, rgba(0, 102, 255, 1) 0%, rgba(0, 212, 255, 0) 100%);
     -webkit-filter: blur(80px);
@@ -1518,9 +1518,9 @@
     height: 80%;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background: rgb(0, 102, 255);
     background: radial-gradient(circle, rgba(0, 102, 255, 1) 0%, rgba(0, 212, 255, 0) 100%);
     -webkit-filter: blur(30px);

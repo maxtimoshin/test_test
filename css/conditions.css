@@ -104,9 +104,9 @@
     height: 120px;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    -ms-transform: translate(-50%, -50%) translate3d(0, 0, 0);
-    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background: -o-radial-gradient(
         7.7% 50.41%,
         139.97% 570.7%,
